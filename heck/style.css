@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 40px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+    border-radius: 7px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{ 
+    font-size: 14px;
+    letter-spacing: .1px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #161616;
+}
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f3f4f7;
+    color: rgb(55, 54, 54);
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #54baf1;
+    color: antiquewhite;
+}
+
+.hero{
+    padding: auto 30px;
+    height: 80vh;
+    width: 80%;
+    margin:10px auto;
+    border-radius:16px;
+    background-image: url(rescue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    color: #f3f4f7;
+}
+.hero h1{
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 32px;
+    margin-top: 25%;
+    margin-left: 80px;
+}
+.hero p{
+    max-width: 500px ;
+    margin: 30px 80px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.hero .bt{
+    margin-left: 80px;
+}
+
+
+.head{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.head p {
+    margin-top: 20px;
+}
+
+.box{
+    display: flex;
+    width: 100vw;
+    border: 1px solid rgb(238, 234, 234);
+    border-radius: 16px;
+    box-shadow: 1px 2px 10px 1px rgb(219, 217, 217);
+    height: 180px;
+    width: 75vw;
+    margin:30px auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.left p{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+}
+.right img{
+    border-radius: 16px;
+    height: 160px;
+    width: 230px;
+}
+.bt_intro{
+    margin-top: 20px;
+}
+
+.work{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.our{
+    margin-top: 70px;
+}
+.our p{
+    border-bottom: 1px dotted rgb(107, 106, 106);
+    max-width: 80%;
+    margin-top: 20px;
+    line-height: 28px;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+}
+
+.review{
+    align-items: center;
+    padding: 20px;
+}
+h5{
+    font-weight: normal;
+    width: max-content;
+    margin:40px auto;
+    font-size: 24px;
+}
+.user_img{
+    margin-left: 20px;
+    height: 40px;
+    width: 50px;
+    background-color: #f9f9f9;
+}
+.user_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.class{
+font-family: ;
+
+}

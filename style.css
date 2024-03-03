@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 40px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+    border-radius: 7px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{ 
+    font-size: 14px;
+    letter-spacing: .1px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #161616;
+}
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f3f4f7;
+    color: rgb(55, 54, 54);
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #54baf1;
+    color: antiquewhite;
+}
+
+.hero{
+    height: 80vh;
+    width: 95%;
+    margin: auto;
+    background-color: green;
+    background-image: url(rescue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
